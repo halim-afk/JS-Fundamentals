@@ -1,8 +1,8 @@
-const arg1 = process.argv[2]; // أول argument بعد اسم السكريبت
+const firstArg = process.argv[2];
 
-if (arg1 === undefined) {
-  console.log("no argument");
+if (firstArg === undefined) {
+  console.log("No argument");
 } else {
-  console.log("argument found:", arg1);
+  console.log(firstArg);
 }
 
